@@ -32,7 +32,7 @@ module.exports = async (client, interaction, args) => {
       },
       {
         name: "🔧┆Bot developer",
-        value: `<@!922120042651451423> - @uoaio`,
+        value: `<@!${process.env.OWNER_ID}>`,
         inline: true,
       },
       {
