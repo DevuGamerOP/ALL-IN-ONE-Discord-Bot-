@@ -21,7 +21,7 @@ module.exports = async (client) => {
                         `・❓┆/help`,
                         `・💻┆${client.guilds.cache.size} servers`,
                         `・📨┆dsc.gg/heaven-mc`,
-                        `・🎉┆Managing {users} Users`,
+                        `・🎉┆Managing {client.users.cache.size} Users`,
                         `・🏷️┆/bot support`
                     ];
                 }
