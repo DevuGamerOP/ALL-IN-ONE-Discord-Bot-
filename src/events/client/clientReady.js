@@ -20,13 +20,13 @@ module.exports = async (client) => {
                     statuttext = [
                         `・❓┆/help`,
                         `・💻┆${client.guilds.cache.size} servers`,
-                        `・📨┆discord.gg/uoaio`,
-                        `・🎉┆400+ commands`,
-                        `・🏷️┆Version ${require(`${process.cwd()}/package.json`).version}`
+                        `・📨┆dsc.gg/heaven-mc`,
+                        `・🎉┆Managing {users} Users`,
+                        `・🏷️┆/bot support`
                     ];
                 }
                 const randomText = statuttext[Math.floor(Math.random() * statuttext.length)];
-                client.user.setPresence({ activities: [{ name: randomText, type: Discord.ActivityType.Playing }], status: 'online' });
+                client.user.setPresence({ activities: [{ name: randomText, type: Discord.ActivityType.Playing }], status: 'idle' });
 
     }, 50000)
 
