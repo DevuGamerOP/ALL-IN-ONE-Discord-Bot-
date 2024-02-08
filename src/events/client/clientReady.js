@@ -20,7 +20,7 @@ module.exports = async (client) => {
                     statuttext = [
                         `・❓┆/help`,
                         `・💻┆${client.guilds.cache.size} servers`,
-                        `・📨┆dsc.gg/heaven-mc`,
+                        `・📨┆Operated By Devu`,
                         `・🎉┆Managing {client.users.cache.size} Users`,
                         `・🏷️┆/bot support`
                     ];
