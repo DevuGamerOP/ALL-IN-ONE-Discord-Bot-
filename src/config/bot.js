@@ -8,8 +8,8 @@ module.exports = {
     discord: {
         id: process.env.DISCORD_ID,
         prefix: '!',
-        footer: `© Corwin 2021 - ${new Date().getFullYear()}`, 
-        botInvite: `https://discord.com/oauth2/authorize?&client_id=840212110817755157&scope=applications.commands+bot&permissions=8`,
+        footer: `© Devu 2024 - ${new Date().getFullYear()}`, 
+        botInvite: `https://discord.com/api/oauth2/authorize?client_id=1204831184807526470&permissions=8&scope=bot+applications.commands`,
         serverInvite: "https://discord.gg/qHXxpQKC2H",
     },
 
